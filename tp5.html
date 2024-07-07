@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>"Cafetería El Lago"</title>
+</head>
+<body>
+    <h1>Menú de la Cafetería "El Lago"</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Cafés</th>
+                <th>Descripción</th>
+                <th>Precio (ARS)</th>
+                <th>Sandwiches</th>
+                <th>Descripción</th>
+                <th>Precio (ARS)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Expresso</td>
+                <td>Café negro simple</td>
+                <td>$180</td>
+                <td>Clásico</td>
+                <td>Jamón natural de cerdo y queso cremoso</td>
+                <td>$190</td>
+            </tr>
+            <tr>
+                <td>Latte</td>
+                <td>50% Café negro simple con 50% de leche y espuma</td>
+                <td>$220</td>
+                <td>Cheddar</td>
+                <td>Doble queso cheddar y jamón natural de cerdo</td>
+                <td>$230</td>
+            </tr>
+            <tr>
+                <td>Macchiato</td>
+                <td>70% Leche cremosa y espumante con un 30% de café negro</td>
+                <td>$310</td>
+                <td>Calabrés</td>
+                <td>muzzarella, albahaca y tomante con un toque de aceite de oliva</td>
+                <td>$320</td>
+            </tr>
+            <tr>
+                <td>Capuchino</td>
+                <td>60% Café negro simple con 40% leche, espuma y chocolate</td>
+                <td>$380</td>
+                <td>Pollo</td>
+                <td>Pollo horneado desmenuzado con lechuga, tomate, huevo y salsa de mayonesa</td>
+                <td>$400</td>
+            </tr>
+            <tr>
+                <td>Caramelo</td>
+                <td>Café negro con crema, espuma y un toque de dulce de leche</td>
+                <td>$410</td>
+            
+            </tr>
+        </tbody>
+    </table>
+    <h2>Formulario de Reserva</h2>
+
+    <form action="#">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="personas">Cantidad de personas:</label>
+        <input type="number" id="personas" name="personas" min="1" required>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required>
+<br>
+        <label for="comentarios">Comentarios (opcional):</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+
+        <button type="submit">Enviar reserva</button>
+    </form>
+</body>
+</html>
