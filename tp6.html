@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografía de Taylor Swift</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Encabezado */
+        header {
+            background-color: #D4AF37;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Menú de navegación */
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #D4AF37;
+        }
+
+        /* Sección de contenido */
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            color: #D4AF37;
+        }
+
+        /* Lista de álbumes */
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        /* Enlace estilo */
+        a {
+            color: #333;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: #D4AF37;
+        }
+
+        /* Formulario de contacto */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        #nombre, #email, #mensaje {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        /* Botón de enviar */
+        #enviar {
+            background-color: #D4AF37;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        #enviar:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biografía de Taylor Swift</h1>
+    </header>
+    
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="#biografia">Biografía</a>
+        <a href="#albumes">Álbumes</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    
+    <!-- Sección de biografía -->
+    <section id="biografia">
+        <h2>Biografía</h2>
+        <p>Taylor Swift nació el 13 de diciembre de 1989 en Reading, Pensilvania. Es conocida mundialmente por su carrera como cantante, compositora y actriz. Desde su adolescencia, Swift ha cautivado al público con su talento y habilidad para contar historias a través de sus canciones, que abarcan desde country hasta pop y folk.</p>
+    </section>
+    
+    <!-- Sección de álbumes -->
+    <section id="albumes">
+        <h2>Álbumes</h2>
+        <p>Algunos de sus álbumes más reconocidos incluyen:</p>
+        <ul>
+            <li>Fearless (2008)</li>
+            <li>Red (2012)</li>
+            <li>1989 (2014)</li>
+            <li>Folklore (2020)</li>
+            <li>Evermore (2020)</li>
+            <li>Midnights (2022)</li>
+        </ul>
+    </section>
+    
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas obtener más información, puedes completar el siguiente formulario:</p>
+        
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+            <button type="submit" id="enviar">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
